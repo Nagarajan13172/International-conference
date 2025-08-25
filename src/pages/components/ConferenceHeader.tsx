@@ -13,6 +13,7 @@ export function ConferenceHeader() {
             <div className="container mx-auto px-2 sm:px-4 lg:px-6">
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-0">
                     {/* Conference Logo */}
+
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -20,9 +21,9 @@ export function ConferenceHeader() {
                         className="flex-shrink-0 order-1 lg:order-1"
                     >
                         <div className="bg-white text-blue-900 px-3 py-2 sm:px-4 sm:py-3 rounded-lg font-bold text-center">
-                            <div className="text-xl sm:text-2xl font-black">
+                            <div className="text-xl sm:text-2xl font-black flex justify-center items-center">
+                                <img src="/images/icaitsc.png" alt="ICAITSC 2026 Logo" className="w-36 h-36" />
                                 ICAITSC 2026</div>
-                            <div className="text-xs sm:text-sm">2026</div>
                         </div>
                     </motion.div>
 
@@ -34,7 +35,7 @@ export function ConferenceHeader() {
                         className="flex-1 text-center order-2 lg:order-2 lg:mx-4 xl:mx-8"
                     >
                         <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mb-1 sm:mb-2 leading-tight">
-                        <span className="text-red-400">I</span>nternational{" "}
+                            <span className="text-red-400">I</span>nternational{" "}
                             <span className="text-red-400">C</span>onference on <span className="text-red-400">C</span>omputational
                             Intelligence
                         </h1>
