@@ -95,7 +95,7 @@ export function CommitteeSection() {
             <Crown className="h-5 sm:h-6 w-5 sm:w-6 text-primary" />
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800">Chief Patron</h3>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center ${organizingCommittee.length === 1 ? 'lg:flex lg:justify-center' : ''}`}>
             {organizingCommittee.map((member, index) => (
               <motion.div
                 key={index}
@@ -129,7 +129,7 @@ export function CommitteeSection() {
             <Crown className="h-5 sm:h-6 w-5 sm:w-6 text-primary" />
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800">Patron</h3>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center ${patron.length === 1 ? 'lg:flex lg:justify-center' : ''}`}>
             {patron.map((member, index) => (
               <motion.div
                 key={index}
@@ -163,7 +163,7 @@ export function CommitteeSection() {
             <Award className="h-5 sm:h-6 w-5 sm:w-6 text-primary" />
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800">Convenor</h3>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center ${Convenor.length === 1 ? 'lg:flex lg:justify-center' : ''}`}>
             {Convenor.map((chair, index) => (
               <motion.div
                 key={index}
@@ -200,7 +200,7 @@ export function CommitteeSection() {
             <Award className="h-5 sm:h-6 w-5 sm:w-6 text-primary" />
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800">Organizing Secretaries</h3>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center ${conferenceChairs.length === 2 ? 'lg:flex lg:justify-center' : ''}`}>
             {conferenceChairs.map((chair, index) => (
               <motion.div
                 key={index}
@@ -236,7 +236,7 @@ export function CommitteeSection() {
             <Users className="h-5 sm:h-6 w-5 sm:w-6 text-primary" />
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800">Organizing Members</h3>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 justify-items-center ${advisoryCommittee.length === 2 ? 'lg:flex lg:justify-center' : ''}`}>
             {advisoryCommittee.map((advisor, index) => (
               <motion.div
                 key={index}
