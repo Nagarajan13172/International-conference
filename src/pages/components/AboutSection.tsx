@@ -54,7 +54,7 @@ export function AboutSection() {
                         transition={{ duration: 0.8 }}
                         className="flex flex-col items-start"
                     >
-                        <h2 className="lexend-deca text-3xl md:text-4xl mb-6 text-gray-800">About the Conference</h2>
+                        <h2 className=" text-3xl md:text-4xl mb-6 text-gray-800">About the Conference</h2>
                         <p className="text-lg text-gray-700 max-w-3xl text-left leading-relaxed poppins-regular">
                             {showFullConference ? conferenceText : getShortText(conferenceText)}
                         </p>
