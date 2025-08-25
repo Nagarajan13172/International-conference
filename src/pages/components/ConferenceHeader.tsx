@@ -63,7 +63,7 @@ export function ConferenceHeader() {
                     >
                         <div className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-white rounded-lg flex items-center justify-center">
                             <img
-                                src="/public/images/logo1.png"
+                                src="/images/logo1.png"
                                 alt="Periyar University Logo"
                                 className="w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16 object-contain"
                             />

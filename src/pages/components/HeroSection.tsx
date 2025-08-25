@@ -10,7 +10,7 @@ export function HeroSection() {
       {/* College Background Image Placeholder with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="/public/images/periyar-university.png"
+          src="/images/periyar-university.png"
           alt="Periyar University Salem Campus"
           className="w-full h-full object-cover"
         />
