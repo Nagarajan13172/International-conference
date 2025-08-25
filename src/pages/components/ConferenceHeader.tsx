@@ -47,7 +47,7 @@ export function ConferenceHeader() {
                         <div className="text-xs sm:text-sm lg:text-base space-y-1">
                             <p className="mb-1">
                                 Department of
-                                <br className="sm:hidden" /> Computer Sciences
+                                <br className="sm:hidden" /> Computer Science
                             </p>
                             <p className="text-yellow-300 font-medium text-sm sm:text-base lg:text-lg">
                                 Periyar University Salem, Tamil Nadu, India
