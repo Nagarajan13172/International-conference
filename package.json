@@ -1,6 +1,11 @@
 {
   "name": "international-conference",
   "private": true,
+    "packageManager": "npm@10.8.2",
+  "engines": { "node": ">=20 <23", "npm": ">=10 <11" },
+  "overrides": {
+    "path-exists": "5.0.0"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {

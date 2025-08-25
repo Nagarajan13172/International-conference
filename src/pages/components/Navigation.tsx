@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Menu, X, ChevronDown } from "lucide-react"
 
 export function Navigation() {
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [_isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isCallForPapersOpen, setIsCallForPapersOpen] = useState(false)
 

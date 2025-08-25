@@ -1,5 +1,4 @@
 "use client"
-import { MapPin, Mail, Phone } from "lucide-react"
 import { ConferenceHeader } from "./pages/components/ConferenceHeader"
 import { Navigation } from "./pages/components/Navigation"
 import { HeroSection } from "./pages/components/HeroSection"
