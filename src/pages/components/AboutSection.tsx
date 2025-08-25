@@ -21,7 +21,7 @@ export function AboutSection() {
         {
             icon: Award,
             title: "Quality Publications",
-            description: "Proceedings published in CCIS Series by Springer",
+            description: "The presented papers will be considered for possible publication in Springer or other publishers, subject to acceptance.",
         },
         {
             icon: Target,
