@@ -46,8 +46,8 @@ export function ConferenceHeader() {
                         <p className="text-sm sm:text-base lg:text-lg font-medium mb-1 sm:mb-2">26-27 February 2026</p>
                         <div className="text-xs sm:text-sm lg:text-base space-y-1">
                             <p className="mb-1">
-                                Department of Applied Mathematics and
-                                <br className="sm:hidden" /> Computational Sciences
+                                Department of
+                                <br className="sm:hidden" /> Computer Sciences
                             </p>
                             <p className="text-yellow-300 font-medium text-sm sm:text-base lg:text-lg">
                                 Periyar University Salem, Tamil Nadu, India
