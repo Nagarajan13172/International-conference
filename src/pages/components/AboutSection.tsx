@@ -155,7 +155,7 @@ export function AboutSection() {
                             className="relative overflow-hidden rounded-lg shadow-xl"
                         >
                             <img
-                                src="/public/images/bg2.png"
+                                src="/images/bg2.png"
                                 alt="Periyar University Salem"
                                 className="w-full h-80 object-cover"
                             />
